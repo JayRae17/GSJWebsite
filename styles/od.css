@@ -1,0 +1,137 @@
+body {
+    padding-top: 5rem;
+    background: linear-gradient(72.39deg, #15205C 53.98%, #141414 102.08%);
+}
+
+/************************** HEADER *************************************/
+.extra-space{
+    padding-left: 3rem;
+}
+
+.bg-primaryV2{
+  background: linear-gradient(72.39deg, #15205C 53.98%, #141414 102.08%);
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #4790E4;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.fixed-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+/*********************** MAIN ************************/
+.containers {
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 1200px) {
+.containers {
+  width: 100%
+}
+}
+
+.page-header{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.015em;
+  color: rgb(246, 247, 252);
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+
+}
+
+.decor{
+  position: absolute;
+  width: 120px;
+  height: 87px;
+  left: 238px;
+  top: 70px;
+  background: #FFFFFF;
+  opacity: 0.1;
+}
+
+
+/********************** ABOUT PAGE **************************/
+.content{
+  background-color: white;
+  padding: 3rem 10rem;
+  color: #3A3B4F;
+  
+}
+
+
+.paragraph{
+  margin-top: 2rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 32px;
+  font-weight: 500;
+
+
+  letter-spacing: -0.015em;
+
+  color: rgb(100, 101, 116);
+
+}
+
+.paraSpace{
+  margin-top: 3rem;
+}
+
+.image{
+  position: relative;
+}
+
+.stdImg{
+  margin-top: 4rem;
+  position: absolute;
+}
+
+.decor2{
+  height:50%;
+  width: 50%;
+  background: linear-gradient(210.97deg, #5564E4 22.74%, #C6F5FF 80.72%);
+  position: absolute;
+  right: 0rem;
+  top: 3rem;
+}
+
+
+/***************************** FOOTER *****************************************/
+footer{
+  background: #020617;
+}
+
+.text-uppercase{
+  color: rgb(223, 225, 233);
+}
+
+.list-unstyled{
+  color: rgb(223, 225, 233);
+  line-height: 2rem;
+}
+.footer-copyright{
+  color: rgb(111, 119, 151);
+}

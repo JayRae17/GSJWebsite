@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Geological Society of Jamaica</title>
-	<link rel="stylesheet" type="text/css" href="styles/home.css">
-</head>
-<body>
-	<!--Navbar-->
-	<ul>
-	  <li><a href="">Home</a></li>
-	  <li><a href="">The Geode</a></li>
-	  <li><a href="">Awards</a></li>
-	</ul>
 
-	
+<?php include("base.php"); ?>
 
 <div class="grid-container">
 	<!--SlideShow still need work-->
@@ -33,7 +20,7 @@
   <div class="tf "><br>MEMBERSHIP</div>
 </div>
 
-
 <script src="javascript/home.js"></script>
+<?php include("footer.php"); ?>
 </body>
 </html>
