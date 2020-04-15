@@ -41,7 +41,7 @@
                 <div class="image col-6">
                 <span class = "decor2"></span>
 
-                    <img src = "Images\students.jpg" class = "stdImg" width = "94%" height = "75%"> 
+                    <img src = "Images\students.jpg" class = "stdImg"> 
                     
                 </div>
 

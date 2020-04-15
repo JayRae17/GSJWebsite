@@ -5,20 +5,20 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="home.php">HOME </a>
+      <li class="nav-item active">
+        <a class="nav-link" href="home.php">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="about.php">ABOUT</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">COUNCIL</a>
+        <a class="nav-link" href="council.php">COUNCIL</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">EVENTS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">THE GEODE</a>
+        <a class="nav-link" href="geode.php">THE GEODE</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">MEMBERSHIP</a>
@@ -31,10 +31,13 @@
       </li>
     </ul>
 
-    <ul class="navbar-nav">
+    <!-- <script>
+      $( '.navbar-nav li a' ).on( 'click', function () {
+        $( '.navbar-nav' ).find( 'li.nav-item.active' ).removeClass( 'active' );
+        $( this ).parent( 'li' ).addClass( 'active' );
+        });
 
-      
-
-    </ul>
+    </script> --> 
+    
   </div>
 </nav>
